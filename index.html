@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    
+    <div class="contianer">
+    <!-- <nav>
+      <div style="display: flex" class="logo">
+        <img
+          src="images/Karimi Media logo.png"
+          width="110px"
+          height="73px"
+          alt=""
+        />
+        <p style="font-size: 23px; margin-left: -6px">
+          <strong><span style="color: #c3090a">KARIMI</span> MEDIA</strong>
+        </p>
+        <button id="light_btn"><i class="fa-solid fa-sun"></i></button>
+      </div>
+        
+
+    <p class="dark_btn light_btn"><i class="fa-solid fa-moon"></i></p>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav> -->
+
+    <div id="home"></div>
+
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home"><img
+          src="images/karimi_media_logo.png"
+          width="110px"
+          height="57px"
+          alt="Website logo"
+        /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scientists">Scientists</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Quotes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="positive_statements.html">Positive statements</a></li>
+                <li><a class="dropdown-item" href="quotes.html">!00 Positive Quotes</a></li>
+                <li><a class="dropdown-item" href="#billionaires">What Billionaires say?</a></li>
+                <li><a class="dropdown-item" href="#successfull_people">Key of Success</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <section id="hero_section">
+
+<!-- <button class="alllert" onclick="customAlert()">Alert</button> -->
+
+      <h1 style="font-size: 57px; color: rgb(51, 51, 51)">
+        Educational
+        <span
+          style="
+            background: linear-gradient(90deg, #e51616, rgb(51, 51, 51));
+            -webkit-background-clip: text;
+            color: transparent;
+          "
+          >MEDIA</span
+        >
+        <br />
+        for positive minds
+      </h1>
+      <p style="color: rgb(51, 51, 51); font-size: 17px">
+        <!-- Karimi Media is a community of positive thinking for talented minds all
+        over the world <br />
+        to share usefull and short texts and videos in the best and readable
+        designs -->
+        Karimi Media is a community of positive thinking for talented minds around the world, which <br> provides you with quotes, videos, and positive statements of scientists in great designs and readable.
+      </p>
+      <br /><br />
+      <div class="input_div">
+        <input
+          type="text"
+          class="input"
+          placeholder="What do you want to know about?"
+          required
+        />
+        <button class="input_submit"><strong>➔</strong></button>
+      </div>
+
+      <br /><br /><br /><br /><br /><br />
+    </section>
+
+    <section id="scientists" class="card_section">
+      <h2 style="font-size: 40px; color: rgb(51, 51, 51)">
+        Learn from the scientists. <br> <span style="
+        background: linear-gradient(90deg, #e51616, rgb(51, 51, 51));
+        -webkit-background-clip: text;
+        color: transparent;"">What do they say?</span>
+      </h2>
+
+      
+
+      <div class="cards">
+        <!-- card1 -->
+        <div class="card">
+            <img class="card-img" src="images/dr zakir naik.jpg" alt="Dr Zakir Naik image">
+            <h3>Dr Zakir Naik</h3>
+            <p>The mind is not a vessel to be filled, but a fire to be lit.</p>
+        </div>
+
+        <!-- card2 -->
+        <div class="card">
+            <img class="card-img" src="images/bil gates.jpeg" alt="Bil Gates image">
+            <h3>Bill Gates</h3>
+            <p>Your most unhappy customers are your greatest source of learning.</p>
+        </div>
+
+        <!-- card3 -->
+        <div class="card">
+            <img class="card-img" src="images/albert anestein.jpeg" alt="Albert Einstein image">
+            <h3>Albert Einsteint</h3>
+            <p>The only source of knowledge is experience.</p>
+        </div>
+
+      </div>
+
+
+      <div class="cards">
+        <!-- card4 -->
+        <div class="card">
+            <img class="card-img" src="images/Victor-Hugo.jpg" alt="Victor Hugo image">
+            <h3>Victor Hugo</h3>
+            <p>Even the darkest night will end and the sun will rise.</p>
+        </div>
+
+        <!-- card5 -->
+        <div class="card">
+            <img class="card-img" src="images/charles darwin.jpg" alt="Charles Darwin image">
+            <h3>Charles Darwin</h3>
+            <p>Ignorance more frequently begets confidence than does knowledge.</p>
+        </div>
+
+        <!-- card6 -->
+        <div class="card">
+            <img class="card-img" src="images/newton.jpg" alt="Issac Newton image">
+            <h3>Isaac Newton</h3>
+            <p>If i have seen further it is by standing on the shoulders of giants.</p>
+        </div>
+      </div>
+
+      <br>
+    </section>
+
+    <br><br>
+
+    
+    <br>
+
+
+<section id="billionaires" class="card_section">
+
+
+  <h2 style="font-size: 40px; color: rgb(51, 51, 51)">
+    Listen to the Billionaires <br> <span style="
+    background: linear-gradient(90deg, #e51616, rgb(51, 51, 51));
+    -webkit-background-clip: text;
+    color: transparent;"">What is the secret of their success?</span>
+  </h2>
+
+
+
+    
+    <div class="cards">
+      <!-- card1 -->
+      <div class="custom-tooltip card">
+        <div class="tooltip-content">Chairman and CEO of LVMH Mobet Hennessy Louis Vuitton SE.</div>
+          <img class="card-img" src="images/bernard arnault.jpg" alt="Bernard Arnault image">
+          <h3>Bernard Arnault</h3>
+          <p>I think that tomorrow will be more exciting than today.</p>
+      </div>
+
+      <!-- card2 -->
+      <div class="custom-tooltip card">
+        <div class="tooltip-content">Founder and formor CEO of Amazon, and currently Executive Chairman of Amazon.</div>
+          <img class="card-img" src="images/jeff bezos.jpg" alt="Jeff Bezos image">
+          <h3>Jeff Bezos</h3>
+          <p>I knew that if I failed I wouldn't regret that, but I knew the one thing I might regret is not trying.</p>
+      </div>
+
+      <!-- card3 -->
+      <div class="custom-tooltip card">
+        <div class="tooltip-content">Entrepreneur and CEO of SpaceX, Tasla, Inc., Neuralink, and The Boring Company.</div>
+          <img class="card-img" src="images/Elon musk.jpg" alt="Elon Musk image">
+          <h3>Elon Musk</h3>
+          <p>When something is important enough, you do it even if the odds are not in your favor.</p>
+      </div>
+
+    </div>
+
+
+    <div class="cards">
+      <!-- card4 -->
+      <div class="custom-tooltip card">
+        <div class="tooltip-content">Media mogul, television host, actress, producer, and philanthropist.</div>
+          <img class="card-img" src="images/Oprah-Winfrey.webp" alt="Oprah Winfrey image">
+          <h3>Oprah Winfrey</h3>
+          <p>The biggest adventure you can take is to live the life of your dreams.</p>
+      </div>
+
+      <!-- card5 -->
+      <div class="custom-tooltip card">
+        <div class="tooltip-content">Chairman and CEO of berkshire Hathaway, renowned investor, and philanthropist.</div>
+          <img class="card-img" src="images/warren buffett.jpg" alt="Warren Buffett image">
+          <h3>Warren Buffett</h3>
+          <p>The best investment you can make is in yourself.</p>
+      </div>
+
+      <!-- card6 -->
+      <div class="custom-tooltip card">
+        <div class="tooltip-content">Co-founder <br> and CEO of <br> Facebook.</div>
+          <img class="card-img" src="images/Mark-Zuckerberg.jpg" alt="Mark Zuckerberg image">
+          <h3>Mark Zuckerberg</h3>
+          <p>The biggest risk is not taking any risk. in a world that's changing really quickly, the only strategy that is guaranteed to fail is not taking risks.</p>
+      </div>
+    </div>
+
+
+
+
+</section>
+
+
+
+<br><br>
+
+    
+<br>
+
+
+
+
+<section id="successfull_people" class="card_section">
+
+
+  <h2 style="font-size: 40px; color: rgb(51, 51, 51)">
+    What is the key of <br> <span style="
+    background: linear-gradient(90deg, #e51616, rgb(51, 51, 51));
+    -webkit-background-clip: text;
+    color: transparent;"">success?</span>
+  </h2>
+
+
+
+    
+    <div class="cards">
+      <!-- card1 -->
+
+      <div class="key_of_success">
+        <h2>Crestiano Ronaldo</h2>
+        <img class="key_card_img" src="images/crestiano_ronaldo.jpg" width="430" height="404" alt="Crestiano Ronaldo image">
+        <p>Success, for me, boils down to dedication and hard work. It's about showing up every day, pushing yourself to the limit, and never settling for mediocrity. You have to be willing to put in the hours, sweat, and tears to reach your goals. There are no shortcuts to success – it's all about the grind.
+
+          But it's not just about hard work; it's also about having a clear vision and chasing after it relentlessly. You need to set big goals and then go after them with everything you've got. And when things get tough – and they will – you have to stay positive, stay resilient, and keep pushing forward. Surround yourself with a strong team, lean on them for support, and together, you can achieve greatness. That's been my formula for success, and it's what I believe in.</p>
+      </div>
+
+      <div class="key_of_success">
+        <h2>Muhammad Salah</h2>
+        <img class="key_card_img" src="images/muhammad_salah.jpg" alt="Muhammad Salah image">
+        <p>Success, to me, is about dedication and hard work. It's the relentless pursuit of excellence, pushing myself every day to be the best I can be. Setting big goals and never giving up until I achieve them. Through challenges and setbacks, it's about staying resilient and focused on the path ahead.
+
+          Surrounding myself with a supportive team, leaning on them for strength and encouragement, is crucial. Together, we strive for greatness, pushing each other to new heights. Despite any doubts or obstacles, I remain committed to my vision, knowing that with perseverance and determination, anything is possible. That's my approach to success.</p>
+      </div>
+
+    </div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
